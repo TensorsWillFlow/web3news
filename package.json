@@ -14,7 +14,9 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
     "aos": "^3.0.0-beta.6",
+    "autoprefixer": "^9.8.6",
     "axios": "^0.21.0",
+    "postcss": "^7.0.35",
     "query-string": "^4.3.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -25,6 +27,7 @@
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.3.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -53,9 +56,6 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.1.0",
-    "autoprefixer": "^9.8.6",
-    "file-loader": "^6.1.1",
-    "postcss": "^8.2.10",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0"
+    "file-loader": "^6.1.1"
   }
 }
