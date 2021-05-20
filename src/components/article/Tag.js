@@ -10,7 +10,7 @@ const Tag = ({ id, name, icon }) => {
   else if (name === "Cardano") imgSrc = ada;
 
   return (
-    <div className="rounded-full border-2 flex p-2 bg-darkblue-300">
+    <div className="rounded-full flex p-2 bg-darkblue-300">
       {imgSrc ? <img src={imgSrc} alt={name} className="px-2"></img> : null}
       <button id={id} className="pr-2 cursor-pointer hover:text-darkblue-900">
         {name}
